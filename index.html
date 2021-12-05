@@ -1,0 +1,222 @@
+  <!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.12.1/css/all.min.css">
+    <title>Ism_card</title>
+</head>
+
+<style>
+    .card {
+        position: relative;
+        height: 460px;
+        width: 300px;
+        background-color: #ecf0f1;
+        margin: 60px auto;
+    }
+    
+    .header {
+        position: absolute;
+        height: 220px;
+        left: 0;
+        right: 0;
+        top: 0;
+        background-image: linear-gradient(to right, #779c92, #4d97c2);
+    }
+    
+    .header img {
+        position: absolute;
+        height: 120px;
+        width: 120px;
+        border-radius: 50%;
+        left: 90px;
+        top: 22px;
+    }
+    
+    .header h3 {
+        position: absolute;
+        font-family: 'Times New Roman', Times, serif;
+        font-style:italic;
+        color: black;
+        font-size: 26px;
+        font-weight: 600;
+        letter-spacing: 1px;
+        top: 118px;
+        left: 90px;
+    }
+    
+    .header h4 {
+        position: absolute;
+        font-family: 'Times New Roman', Times, serif;
+        color: black;
+        font-size: 13px;
+        font-style: italic;
+        top: 166px;
+        left: 90px
+    }
+    
+    .body {
+        position: absolute;
+        height: 126px;
+        left: 5px;
+        right: 5px;
+        top: 52%;
+        background-color: rgb(148, 189, 37);
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    }
+    
+    .body ul {
+        position: absolute;
+        left: 0;
+        bottom: 0;
+        right: 0;
+        top: 0;
+    }
+    
+    .body ul li {
+        position: absolute;
+        list-style: none;
+        display: block;
+        height: 40px;
+        width: 100%;
+        left: 0;
+        right: 0;
+        background-color: whitesmoke;
+        transition: all .3s ease-in-out;
+    }
+    
+    .body ul li p,
+    h3,
+    i {
+        position: absolute;
+    }
+    
+    .body ul li h3 {
+        top: -17px;
+        left: 58px;
+        color: black;
+    }
+    
+    .body ul li p {
+        top: 14px;
+        left: 59px;
+        font-size: 12px;
+        font-family: 'Times New Roman', Times, serif;
+        color: black;
+    }
+    
+    .body ul li i {
+        left: 8px;
+        top: 7px;
+        color: #5b7ef3;
+        font-size: 26px;
+    }
+    
+    .body ul li:nth-child(1) {
+        top: -16px;
+    }
+    
+    .body ul li:nth-child(2) {
+        top: 26px;
+    }
+    
+    .body ul li:nth-child(3) {
+        top: 68px;
+    }
+    
+    .body ul li:nth-child(1) i {
+        left: 12px;
+    }
+    
+    .body li:hover {
+        background-color: #12e4f3;
+        cursor: pointer;
+    }
+    /*footer*/
+    
+    .footer {
+        position: absolute;
+        height: 80px;
+        bottom: 0;
+        left: 0;
+        right: 0;
+        background-image: linear-gradient(to right, #e2e1e1, #030708);
+    }
+    
+    .footer ul {
+        position: absolute;
+        left: -60px;
+    }
+    
+    .footer ul li {
+        display: inline-block;
+        margin-left: 60px;
+    }
+    
+    .footer ul li i {
+        font-size: 30px;
+        color: #12e4f3;
+        transition: all .3s ease-in;
+    }
+    
+    .footer ul li:hover i {
+        transform: scale(0.9);
+        color: #1dd1a1;
+        cursor: pointer;
+        border-bottom: 2px solid #441dd1;
+    }
+</style>
+
+<body>
+
+    <div class="card">
+        <div class="header">
+            <img src="My photo.png">
+            <h3>Ismail Shaikh</h3>
+            <h4>Front-End developer and Desinger</h4>
+        </div>
+
+        <div class="body">
+            <ul>
+                <li>
+                    <h3>7262856504</h3>
+                    <p>Mobile number</p>
+                   <a href="tel:7262856504"><i class="fas fa-mobile-alt"></i></a>
+                </li>
+                <li>
+                    <h3>shaikhismail@gmail.com</h3>
+                    <p>Email address</p>
+                   <a href="https://mailto:shaikhismail1423@gmail.com"><i class="fas fa-envelope"></i></a> 
+                </li>
+                <li>
+                    <h3>www.ismailportpolio.com</h3>
+                    <p>Website address</p>
+                    <a href=""><i class="fas fa-globe-americas"></i></a>
+                </li>
+            </ul>
+        </div>
+
+        <div class="footer">
+            <ul>
+                <li>
+                    <a href="https://www.linkedin.com/in/ismail-shaikh-101362220"><i class="fab fa-linkedin-in" ></i></a>
+                </li>
+                <li>
+                    <a href="https://wa.me/[7262856504]"><i class="fab fa-whatsapp" ></i></a>
+                </li>
+                <li>
+                    <a href="https://mailto:shaikhismail1423@gmail.com"><i class="fas fa-mail-bulk"></i></a>
+                </li>
+                <li>
+                    <a href="https://www.instagram.com/ismail_143s?r=nametag"><i class="fab fa-instagram"></i></a>
+                </li>
+            </ul>
+        </div>
+
+    </div>
+
+</body>
+
+</html>
